@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+# A/B outputs and server logs
+ab_runs/
+*_KEY.json
+
+# per-stack tuner output (profiles, searches, LoRAs)
+results/
+.mypy_cache/
